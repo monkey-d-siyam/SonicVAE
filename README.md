@@ -22,7 +22,7 @@
 
 SonicVAE achieves meaningful latent representations. Below is the clustering result on a dataset of Pop vs Classical tracks, achieving **ARI: 1.0 (Perfect Separation)**.
 
-![Latent Space Visualization](assets/latent_space.png)
+![Latent Space Visualization](./assets/latent_space.png)
 
 ## �🛠️ Installation
 

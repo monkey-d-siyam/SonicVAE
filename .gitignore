@@ -7,9 +7,6 @@ __pycache__/
 data/
 results/
 runs/
-*.png
-*.jpg
-*.json
 
 # Virtual Environments
 venv/

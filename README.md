@@ -2,7 +2,7 @@
 
 **SonicVAE** is an advanced Variational Autoencoder (VAE) framework designed to learn meaningful latent representations of music audio effectively. It uses learning techniques like **ResNet architectures**, **Mixed Precision Training**, and **KL Divergence Annealing** to cluster music genres directly from raw audio waveforms (via spectrograms).
 
-## 🚀 Key Features
+## Key Features
 
 - **Advanced Architecture**: 
   - **ResNetVAE**: Uses Residual Blocks and Swish (SiLU) activation for deep feature extraction.
@@ -18,13 +18,13 @@
   - Built-in `RealAudioDataset` powered by `librosa`.
   - Automatic Mel Spectrogram generation from `.mp3`/`.wav`.
 
-## � Results
+## Results
 
 SonicVAE achieves meaningful latent representations. Below is the clustering result on a dataset of Pop vs Classical tracks, achieving **ARI: 1.0 (Perfect Separation)**.
 
 ![Latent Space Visualization](./assets/latent_space.png)
 
-## �🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -37,7 +37,7 @@ cd SonicVAE
 pip install -r requirements.txt
 ```
 
-## 🏃 Usage
+## Usage
 
 ### 1. Data Preparation
 Organize your audio files into folders (optionally by genre, though unlabelled is fine too):
@@ -67,7 +67,7 @@ python -m src.main --model_type resnet --data_dir "data" --epochs 50 --n_cluster
 Results (Latent Space plots, Loss curves, Metrics) are saved to `results/`.
 TensorBoard logs are saved to `runs/`.
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
 SonicVAE is designed as a foundation for next-generation music AI. Potential future expansions include:
 
